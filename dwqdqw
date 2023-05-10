@@ -1,0 +1,18 @@
+(venv) root@mopt-HP-Convertible-x360-11-ab1XX:/home/mopt/belajar/fletpp/fpyo2apkdist# briefcase build android
+
+*************************************************************************
+** WARNING: ANDROID_SDK_ROOT does not point to an Android SDK          **
+*************************************************************************
+
+    The location pointed to by the ANDROID_SDK_ROOT environment
+    variable:
+
+    /root/Android/Sdk
+
+    doesn't appear to contain an Android SDK.
+
+    Briefcase will use its own SDK instance.
+
+*************************************************************************
+
+keytool -list -v -keystore ~/.android/debug.keystore -alias AndroidDebugKey -storepass android -keypass android
